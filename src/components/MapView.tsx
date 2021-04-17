@@ -54,6 +54,24 @@ export function MapView(props: MapViewProps) {
     return datum.data.Jahr >= range[0] && datum.data.Jahr <= range[1];
   });
 
+  const reducedData = filteredData.reduce<Record<string, number>>(
+    (acc, datum) => {
+      const abbr = datum.mapping?.abbreviation;
+      if (abbr && acc.hasOwnProperty(abbr)) {
+        const currentValue = acc[abbr];
+        acc[abbr] = currentValue + datum.data.count;
+      } else if (abbr) {
+        acc[abbr] = 0;
+      }
+      return acc;
+    },
+    {}
+  );
+
+  const finalData = Object.entries(reducedData).map((d) => {
+    return { abbreviation: d[0], count: d[1] };
+  });
+
   const handleChange = (event: any, newValue: number | number[]) => {
     setRange(newValue as number[]);
   };
@@ -107,20 +125,18 @@ export function MapView(props: MapViewProps) {
                 fill={"white"}
               />
               <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
-              {filteredData.length > 0 && (
+              {finalData.length > 0 && (
                 <Geographies geography={geoUrl}>
                   {({ geographies }) =>
                     geographies.map((geo) => {
-                      const d = filteredData.find(
-                        (s) => s.mapping?.abbreviation === geo.properties.ISO_A3
+                      const d = finalData.find(
+                        (s) => s.abbreviation === geo.properties.ISO_A3
                       );
                       return (
                         <Geography
                           key={geo.rsmKey}
                           geography={geo}
-                          fill={
-                            d ? colorScale(Math.log(d.data.count)) : "#F5F4F6"
-                          }
+                          fill={d ? colorScale(Math.log(d.count)) : "#F5F4F6"}
                           onMouseEnter={() => {
                             const { NAME, POP_EST } = geo.properties;
                             setContent(`${NAME} — ${POP_EST}`);
