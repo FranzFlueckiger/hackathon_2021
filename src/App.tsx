@@ -1,6 +1,8 @@
 import { AppBar, Tabs, Tab } from "@material-ui/core";
 import React from "react";
 import "./App.css";
+import { MapView } from "./components/MapView";
+import { StoryView } from "./components/StoryView";
 import { country_mappings } from "./data/countriy_mappings";
 import { data } from "./data/processed_hackathon_data";
 
@@ -19,14 +21,16 @@ function App() {
           onChange={handleChange}
           aria-label="simple tabs example"
         >
-          <Tab label="Item One" />
-          <Tab label="Item Two" />
-          <Tab label="Item Three" />
+          <Tab label="Maps" />
+          <Tab label="Story" />
         </Tabs>
       </AppBar>
-
-      {console.log(data)}
-      {country_mappings}
+      <MapView value={value} index={0}>
+        Item One
+      </MapView>
+      <StoryView value={value} index={1}>
+        Item Two
+      </StoryView>
     </>
   );
 }
