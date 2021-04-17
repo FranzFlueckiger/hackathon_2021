@@ -50,8 +50,6 @@ export function MapView(props: MapViewProps) {
     return datum.data.Jahr >= range[0] && datum.data.Jahr <= range[1];
   });
 
-  console.log(filteredData);
-
   const handleChange = (event: any, newValue: number | number[]) => {
     setRange(newValue as number[]);
   };
@@ -62,23 +60,34 @@ export function MapView(props: MapViewProps) {
       hidden={value !== index}
       id={`simple-tabpanel-${index}`}
       aria-labelledby={`simple-tab-${index}`}
+      style={{
+        left: "20px",
+        right: "20px",
+        top: "20px",
+        position: "relative",
+      }}
     >
       {value === index && (
         <div>
           <Slider
             value={range}
             onChange={handleChange}
-            valueLabelDisplay="auto"
             max={2022}
             min={1900}
+            step={1}
+            valueLabelDisplay="on"
             style={{
-              left: "20px",
-              right: "20px",
               width: "40%",
-              top: "20px",
+              top: "40px",
+              left: "20px",
             }}
           />
           <ComposableMap
+            style={{
+              position: "relative",
+              right: "20px",
+              width: "95%",
+            }}
             projectionConfig={{
               rotate: [-10, 0, 0],
               scale: 147,

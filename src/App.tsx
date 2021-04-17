@@ -19,8 +19,8 @@ function App() {
           onChange={handleChange}
           aria-label="simple tabs example"
         >
-          <Tab label="Maps" />
-          <Tab label="Story" />
+          <Tab label="Map" />
+          <Tab label="Write me a love letter" />
         </Tabs>
       </AppBar>
       <MapView value={value} index={0}></MapView>
