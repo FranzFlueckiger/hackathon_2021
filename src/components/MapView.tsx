@@ -6,10 +6,12 @@ import {
   Geography,
   Sphere,
   Graticule,
+  ZoomableGroup,
 } from "react-simple-maps";
 import { scaleLinear } from "d3-scale";
 import Slider from "@material-ui/core/Slider";
 import { data } from "../data/data";
+import ReactTooltip from "react-tooltip";
 
 type MapViewProps = {
   value: any;
@@ -20,6 +22,8 @@ export function MapView(props: MapViewProps) {
   const { value, index } = props;
 
   const [range, setRange] = React.useState<number[]>([1900, 2022]);
+
+  const [content, setContent] = React.useState("");
 
   const geoUrl =
     "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
@@ -95,33 +99,51 @@ export function MapView(props: MapViewProps) {
               scale: 147,
             }}
           >
-            <Sphere
-              stroke="#E4E5E6"
-              strokeWidth={0.5}
-              id={"mysphere"}
-              fill={"white"}
-            />
-            <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
-            {filteredData.length > 0 && (
-              <Geographies geography={geoUrl}>
-                {({ geographies }) =>
-                  geographies.map((geo) => {
-                    const d = filteredData.find(
-                      (s) => s.mapping?.abbreviation === geo.properties.ISO_A3
-                    );
-                    return (
-                      <Geography
-                        key={geo.rsmKey}
-                        geography={geo}
-                        fill={
-                          d ? colorScale(Math.log(d.data.count)) : "#F5F4F6"
-                        }
-                      />
-                    );
-                  })
-                }
-              </Geographies>
-            )}
+            <ZoomableGroup>
+              <Sphere
+                stroke="#E4E5E6"
+                strokeWidth={0.5}
+                id={"mysphere"}
+                fill={"white"}
+              />
+              <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
+              {filteredData.length > 0 && (
+                <Geographies geography={geoUrl}>
+                  {({ geographies }) =>
+                    geographies.map((geo) => {
+                      const d = filteredData.find(
+                        (s) => s.mapping?.abbreviation === geo.properties.ISO_A3
+                      );
+                      return (
+                        <Geography
+                          key={geo.rsmKey}
+                          geography={geo}
+                          fill={
+                            d ? colorScale(Math.log(d.data.count)) : "#F5F4F6"
+                          }
+                          onMouseEnter={() => {
+                            const { NAME, POP_EST } = geo.properties;
+                            setContent(`${NAME} — ${POP_EST}`);
+                          }}
+                          onMouseLeave={() => {
+                            setContent("");
+                          }}
+                          style={{
+                            default: {
+                              outline: "none",
+                            },
+                            hover: {
+                              outline: "none",
+                              stroke: "#000",
+                            },
+                          }}
+                        />
+                      );
+                    })
+                  }
+                </Geographies>
+              )}
+            </ZoomableGroup>
           </ComposableMap>
         </div>
       )}
