@@ -28,7 +28,7 @@ function App() {
       <div
         style={{
           position: "relative",
-          bottom: "20px",
+          top: "20px",
           left: "20px",
         }}
       >
