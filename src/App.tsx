@@ -13,7 +13,10 @@ function App() {
 
   return (
     <>
-      <AppBar position="static" style={{ right: "0px", left: "0px" }}>
+      <AppBar
+        position="static"
+        style={{ right: "0px", left: "0px", backgroundColor: "#54494B" }}
+      >
         <Tabs
           value={value}
           onChange={handleChange}
@@ -23,6 +26,9 @@ function App() {
           <Tab label="Write me a love letter" />
         </Tabs>
       </AppBar>
+      <h3 style={{ left: "20px", position: "relative" }}>
+        The spatial evolvement of a Museums’ collection
+      </h3>
       <MapView value={value} index={0}></MapView>
       <StoryView value={value} index={1}></StoryView>
       <div
@@ -30,6 +36,7 @@ function App() {
           position: "relative",
           top: "20px",
           left: "20px",
+          width: "95%",
         }}
       >
         Visualization based on metadata of circa 75’000 objects from the
