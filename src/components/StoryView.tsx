@@ -1,7 +1,6 @@
 import brigitte from "../imgs/Brigitte.png";
 import ketty from "../imgs/Ketty Lester.png";
 import liebesbrief from "../imgs/MBK_Liebesbrief_Blog.jpg";
-import metronomy from "../imgs/Metronomy.png";
 import moma from "../imgs/Moma.png";
 import nick from "../imgs/Nick Cave.png";
 
@@ -22,11 +21,6 @@ const imageMetaData: {
   },
   {
     src: liebesbrief,
-    url: "",
-    description: "",
-  },
-  {
-    src: metronomy,
     url: "",
     description: "",
   },

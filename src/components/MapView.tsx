@@ -1,6 +1,4 @@
 import { country_mappings } from "../data/countriy_mappings";
-import { data } from "../data/processed_hackathon_data";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import React from "react";
 import {
   ComposableMap,
@@ -11,6 +9,7 @@ import {
 } from "react-simple-maps";
 import { scaleLinear } from "d3-scale";
 import Slider from "@material-ui/core/Slider";
+import { data } from "../data/data";
 
 type MapViewProps = {
   value: any;
@@ -37,16 +36,10 @@ export function MapView(props: MapViewProps) {
   });
 
   const mappedData = data.map((datum) => {
-    let cleanCountryName = datum["countries 0"].replace(/(^\s*,)|(,\s*$)/g, "");
-    cleanCountryName = cleanCountryName.replace(" (?)", "").toLowerCase();
+    let cleanCountryName = datum["countries 0"].toLowerCase();
     const mapping = countryMappingsDef.find(
       (mapping) => mapping.countryName === cleanCountryName
     );
-
-    if (mapping && datum.Jahr && Number.isInteger(datum.Jahr)) {
-      //@ts-ignore
-      mapping.year = datum.Jahr;
-    }
     return {
       data: datum,
       mapping,
@@ -54,26 +47,6 @@ export function MapView(props: MapViewProps) {
   });
 
   console.log(mappedData);
-
-  const countryYearsGrouped = Object.entries(
-    mappedData.reduce<Record<string, number>>(
-      (acc: Record<string, number>, datum) => {
-        const abbr = datum.mapping?.abbreviation;
-        if (
-          abbr &&
-          acc.hasOwnProperty(abbr) &&
-          datum.mapping?.hasOwnProperty("year")
-        ) {
-          const currentValue = acc[abbr];
-          acc[abbr] = currentValue + 1;
-        } else if (abbr) {
-          acc[abbr] = 0;
-        }
-        return acc;
-      },
-      {}
-    )
-  );
 
   const handleChange = (event: any, newValue: number | number[]) => {
     setRange(newValue as number[]);
@@ -94,6 +67,11 @@ export function MapView(props: MapViewProps) {
             valueLabelDisplay="auto"
             max={2022}
             min={1900}
+            style={{
+              left: "20px",
+              right: "20px",
+              width: "40%",
+            }}
           />
           <ComposableMap
             projectionConfig={{
@@ -108,18 +86,18 @@ export function MapView(props: MapViewProps) {
               fill={"white"}
             />
             <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
-            {countryYearsGrouped.length > 0 && (
+            {mappedData.length > 0 && (
               <Geographies geography={geoUrl}>
                 {({ geographies }) =>
                   geographies.map((geo) => {
-                    const d = countryYearsGrouped.find(
-                      (s) => s[0] === geo.properties.ISO_A3
+                    const d = mappedData.find(
+                      (s) => s.mapping?.abbreviation === geo.properties.ISO_A3
                     );
                     return (
                       <Geography
                         key={geo.rsmKey}
                         geography={geo}
-                        fill={d ? colorScale(d[1]) : "#F5F4F6"}
+                        fill={d ? colorScale(d.data.count) : "#F5F4F6"}
                       />
                     );
                   })
