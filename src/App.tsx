@@ -3,8 +3,6 @@ import React from "react";
 import "./App.css";
 import { MapView } from "./components/MapView";
 import { StoryView } from "./components/StoryView";
-import { country_mappings } from "./data/countriy_mappings";
-import { data } from "./data/processed_hackathon_data";
 
 function App() {
   const [value, setValue] = React.useState(0);
@@ -25,12 +23,8 @@ function App() {
           <Tab label="Story" />
         </Tabs>
       </AppBar>
-      <MapView value={value} index={0}>
-        Item One
-      </MapView>
-      <StoryView value={value} index={1}>
-        Item Two
-      </StoryView>
+      <MapView value={value} index={0}></MapView>
+      <StoryView value={value} index={1}></StoryView>
     </>
   );
 }

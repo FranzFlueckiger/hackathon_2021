@@ -1,15 +1,8 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { makeStyles } from "@material-ui/core/styles";
-import AppBar from "@material-ui/core/AppBar";
-import Tabs from "@material-ui/core/Tabs";
-import Tab from "@material-ui/core/Tab";
-import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
-import {data} from "../data/processed_hackathon_data";
+import { data } from "../data/processed_hackathon_data";
 
 export function MapView(props: any) {
-  const { children, value, index, ...other } = props;
+  const { value, index } = props;
 
   return (
     <div
@@ -17,21 +10,8 @@ export function MapView(props: any) {
       hidden={value !== index}
       id={`simple-tabpanel-${index}`}
       aria-labelledby={`simple-tab-${index}`}
-      {...other}
     >
-      {value === index && (
-        <Box p={3}>
-          <Typography>{children}</Typography>
-          {data}
-        </Box>
-      )}
+      {value === index && <Box p={3}>{data}</Box>}
     </div>
   );
 }
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-    backgroundColor: theme.palette.background.paper,
-  },
-}));
