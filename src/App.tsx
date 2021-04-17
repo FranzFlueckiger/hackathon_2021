@@ -25,6 +25,15 @@ function App() {
       </AppBar>
       <MapView value={value} index={0}></MapView>
       <StoryView value={value} index={1}></StoryView>
+      <div
+        style={{
+          position: "fixed",
+          bottom: "20px",
+          left: "20px",
+        }}
+      >
+        Here goes the reference to Museum Basel
+      </div>
     </>
   );
 }

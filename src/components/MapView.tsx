@@ -10,9 +10,17 @@ import {
   Graticule,
 } from "react-simple-maps";
 import { scaleLinear } from "d3-scale";
+import Slider from "@material-ui/core/Slider";
 
-export function MapView(props: any) {
+type MapViewProps = {
+  value: any;
+  index: number;
+};
+
+export function MapView(props: MapViewProps) {
   const { value, index } = props;
+
+  const [range, setRange] = React.useState<number[]>([1900, 2022]);
 
   const geoUrl =
     "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
@@ -34,17 +42,28 @@ export function MapView(props: any) {
     const mapping = countryMappingsDef.find(
       (mapping) => mapping.countryName === cleanCountryName
     );
+
+    if (mapping && datum.Jahr && Number.isInteger(datum.Jahr)) {
+      //@ts-ignore
+      mapping.year = datum.Jahr;
+    }
     return {
       data: datum,
       mapping,
     };
   });
 
-  const countryGrouped = Object.entries(
+  console.log(mappedData);
+
+  const countryYearsGrouped = Object.entries(
     mappedData.reduce<Record<string, number>>(
       (acc: Record<string, number>, datum) => {
         const abbr = datum.mapping?.abbreviation;
-        if (abbr && acc.hasOwnProperty(abbr)) {
+        if (
+          abbr &&
+          acc.hasOwnProperty(abbr) &&
+          datum.mapping?.hasOwnProperty("year")
+        ) {
           const currentValue = acc[abbr];
           acc[abbr] = currentValue + 1;
         } else if (abbr) {
@@ -56,7 +75,9 @@ export function MapView(props: any) {
     )
   );
 
-  console.log(countryGrouped);
+  const handleChange = (event: any, newValue: number | number[]) => {
+    setRange(newValue as number[]);
+  };
 
   return (
     <div
@@ -65,8 +86,15 @@ export function MapView(props: any) {
       id={`simple-tabpanel-${index}`}
       aria-labelledby={`simple-tab-${index}`}
     >
-      {
-        value === index && (
+      {value === index && (
+        <div>
+          <Slider
+            value={range}
+            onChange={handleChange}
+            valueLabelDisplay="auto"
+            max={2022}
+            min={1900}
+          />
           <ComposableMap
             projectionConfig={{
               rotate: [-10, 0, 0],
@@ -80,21 +108,18 @@ export function MapView(props: any) {
               fill={"white"}
             />
             <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
-            {countryGrouped.length > 0 && (
+            {countryYearsGrouped.length > 0 && (
               <Geographies geography={geoUrl}>
                 {({ geographies }) =>
                   geographies.map((geo) => {
-                    const d = countryGrouped.find(
+                    const d = countryYearsGrouped.find(
                       (s) => s[0] === geo.properties.ISO_A3
                     );
                     return (
                       <Geography
                         key={geo.rsmKey}
                         geography={geo}
-                        fill={(() => {
-                          console.log(d);
-                          return d ? colorScale(d[1]) : "#F5F4F6";
-                        })()}
+                        fill={d ? colorScale(d[1]) : "#F5F4F6"}
                       />
                     );
                   })
@@ -102,8 +127,13 @@ export function MapView(props: any) {
               </Geographies>
             )}
           </ComposableMap>
-        )
-        /* <MapContainer center={[51.505, -0.09]} zoom={5} scrollWheelZoom={false}>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* /* <MapContainer center={[51.505, -0.09]} zoom={5} scrollWheelZoom={false}>
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -114,7 +144,3 @@ export function MapView(props: any) {
           </Popup>
         </Marker>
       </MapContainer> */
-      }
-    </div>
-  );
-}
