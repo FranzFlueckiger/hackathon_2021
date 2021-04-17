@@ -22,7 +22,19 @@ const imageMetaData: {
   {
     src: liebesbrief,
     url: "",
-    description: "",
+    description: `Transkription Liebesbrief VI 8763
+vorderes Herz
+In den Sternen steht geschrieben,
+der Mensch soll Glauben, Hoffen Lieben.
+Dieses Blät(t)chen noch so klein
+spricht doch, vergiss nicht mein.
+ 
+hinteres Herz
+Wo Glaube, da Liebe, wo Liebe, da Friede, wo Segen, da Gott.
+Wo Gott, kein Tod.
+Gott meine Hoffnung.
+Die Liebe weist (?) dem Herzen ein,
+so wirt's ein schöner Tempel sein.`,
   },
   {
     src: moma,
@@ -45,9 +57,21 @@ export function StoryView(props: any) {
       hidden={value !== index}
       id={`simple-tabpanel-${index}`}
       aria-labelledby={`simple-tab-${index}`}
+      style={{
+        left: "20px",
+        right: "20px",
+        top: "20px",
+        position: "relative",
+      }}
     >
       {value === index && (
         <div>
+          <h1 style={{ fontSize: 50 }}>Write Me a Loveletter</h1>
+          <a href={"https://www.mkb.ch/de/museum/sammlung/dtl/vi-8763.html"}>
+            <h1 style={{ fontStyle: "italic", color: "#000" }}>
+              Basler Liebesbrief
+            </h1>
+          </a>
           {imageMetaData.map((imageMetaData) => {
             return (
               <div
@@ -67,7 +91,7 @@ export function StoryView(props: any) {
                   }}
                   src={imageMetaData.src}
                 />
-                ;
+                <div>{imageMetaData.description}</div>
               </div>
             );
           })}

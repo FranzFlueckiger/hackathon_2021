@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <AppBar position="static">
+      <AppBar position="static" style={{ right: "0px", left: "0px" }}>
         <Tabs
           value={value}
           onChange={handleChange}
@@ -27,12 +27,20 @@ function App() {
       <StoryView value={value} index={1}></StoryView>
       <div
         style={{
-          position: "fixed",
+          position: "relative",
           bottom: "20px",
           left: "20px",
         }}
       >
-        Here goes the reference to Museum Basel
+        Visualization based on metadata of circa 75’000 objects from the
+        European Collection of the Museum der Kulturen Basel, Switzerland.
+        Provided by the MKB for the Swiss Open Cultural Data Hackathon 2021.
+        Data available online here:
+        https://opendata.swiss/de/dataset/sammlung-europa There may be
+        inconsistencies on different levels, as errors and omissions occurred
+        both when the objects were first cataloged and when the catalogues were
+        transcribed into the database. Terminologies contained therein may today
+        be inaccurate, outdated, or offensive. Museum der Kulturen Base (MKB)
       </div>
     </>
   );

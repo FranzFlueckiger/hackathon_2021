@@ -25,8 +25,8 @@ export function MapView(props: MapViewProps) {
     "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
 
   const colorScale = scaleLinear<string>()
-    .domain([0, 150])
-    .range(["#ffedea", "#ff5233"]);
+    .domain([0, 3.5])
+    .range(["#F3B9C8", "#DB2955"]);
 
   const countryMappingsDef = country_mappings.map((countryMapping) => {
     return {
@@ -65,10 +65,12 @@ export function MapView(props: MapViewProps) {
         right: "20px",
         top: "20px",
         position: "relative",
+        width: "95%",
       }}
     >
       {value === index && (
         <div>
+          <h1 style={{ fontSize: 50 }}>Mapping a Collection</h1>
           <Slider
             value={range}
             onChange={handleChange}
@@ -80,6 +82,8 @@ export function MapView(props: MapViewProps) {
               width: "40%",
               top: "40px",
               left: "20px",
+              border: "#DB2955",
+  
             }}
           />
           <ComposableMap
@@ -111,7 +115,9 @@ export function MapView(props: MapViewProps) {
                       <Geography
                         key={geo.rsmKey}
                         geography={geo}
-                        fill={d ? colorScale(d.data.count) : "#F5F4F6"}
+                        fill={
+                          d ? colorScale(Math.log(d.data.count)) : "#F5F4F6"
+                        }
                       />
                     );
                   })
