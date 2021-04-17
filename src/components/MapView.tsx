@@ -1,4 +1,3 @@
-import Box from "@material-ui/core/Box";
 import { country_mappings } from "../data/countriy_mappings";
 import { data } from "../data/processed_hackathon_data";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
@@ -18,9 +17,8 @@ export function MapView(props: any) {
   const geoUrl =
     "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
 
-  const colorScale = scaleLinear()
-    .domain([0.29, 0.68])
-    //@ts-ignore
+  const colorScale = scaleLinear<string>()
+    .domain([0, 150])
     .range(["#ffedea", "#ff5233"]);
 
   const countryMappingsDef = country_mappings.map((countryMapping) => {
@@ -41,6 +39,24 @@ export function MapView(props: any) {
       mapping,
     };
   });
+
+  const countryGrouped = Object.entries(
+    mappedData.reduce<Record<string, number>>(
+      (acc: Record<string, number>, datum) => {
+        const abbr = datum.mapping?.abbreviation;
+        if (abbr && acc.hasOwnProperty(abbr)) {
+          const currentValue = acc[abbr];
+          acc[abbr] = currentValue + 1;
+        } else if (abbr) {
+          acc[abbr] = 0;
+        }
+        return acc;
+      },
+      {}
+    )
+  );
+
+  console.log(countryGrouped);
 
   return (
     <div
@@ -64,30 +80,21 @@ export function MapView(props: any) {
               fill={"white"}
             />
             <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
-            {mappedData.length > 0 && (
+            {countryGrouped.length > 0 && (
               <Geographies geography={geoUrl}>
                 {({ geographies }) =>
                   geographies.map((geo) => {
-                    const countryGrouped = mappedData.reduce<
-                      Record<string, number>
-                    >((acc: Record<string, number>, datum) => {
-                      const abbr = datum.mapping?.abbreviation;
-                      if (abbr && acc[abbr]) {
-                        acc[abbr]++;
-                      } else if (abbr) {
-                        acc[abbr] = 0;
-                      }
-                      return acc;
-                    }, {});
-                    const d = mappedData.find(
-                      (s) => s.mapping?.abbreviation === geo.properties.ISO_A3
+                    const d = countryGrouped.find(
+                      (s) => s[0] === geo.properties.ISO_A3
                     );
                     return (
                       <Geography
                         key={geo.rsmKey}
                         geography={geo}
-                        //@ts-ignore
-                        fill={d ? colorScale(1) : "#F5F4F6"}
+                        fill={(() => {
+                          console.log(d);
+                          return d ? colorScale(d[1]) : "#F5F4F6";
+                        })()}
                       />
                     );
                   })
