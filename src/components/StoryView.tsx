@@ -1,6 +1,3 @@
-import Box from "@material-ui/core/Box";
-import { country_mappings } from "../data/countriy_mappings";
-import { data } from "../data/processed_hackathon_data";
 import brigitte from "../imgs/Brigitte.png";
 import ketty from "../imgs/Ketty Lester.png";
 import liebesbrief from "../imgs/MBK_Liebesbrief_Blog.jpg";
@@ -8,30 +5,40 @@ import metronomy from "../imgs/Metronomy.png";
 import moma from "../imgs/Moma.png";
 import nick from "../imgs/Nick Cave.png";
 
-const imageMetaData = [
+const imageMetaData: {
+  src: string;
+  url: string;
+  description: string;
+}[] = [
   {
     src: brigitte,
     url: "www.google.ch",
+    description: "",
   },
   {
     src: ketty,
     url: "",
+    description: "",
   },
   {
     src: liebesbrief,
     url: "",
+    description: "",
   },
   {
     src: metronomy,
     url: "",
+    description: "",
   },
   {
     src: moma,
     url: "",
+    description: "",
   },
   {
     src: nick,
     url: "",
+    description: "",
   },
 ];
 
@@ -49,8 +56,24 @@ export function StoryView(props: any) {
         <div>
           {imageMetaData.map((imageMetaData) => {
             return (
-              <div>
-                <img src={imageMetaData.src} />;
+              <div
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                  left: "20px",
+                  right: "100px",
+                  position: "relative",
+                }}
+              >
+                <img
+                  style={{
+                    left: "20px",
+                    maxWidth: "80%",
+                    height: "auto",
+                  }}
+                  src={imageMetaData.src}
+                />
+                ;
               </div>
             );
           })}
