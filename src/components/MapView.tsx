@@ -83,13 +83,11 @@ export function MapView(props: MapViewProps) {
               top: "40px",
               left: "20px",
               border: "#DB2955",
-  
             }}
           />
           <ComposableMap
             style={{
               position: "relative",
-              right: "20px",
               width: "95%",
             }}
             projectionConfig={{
