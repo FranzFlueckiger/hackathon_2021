@@ -29,7 +29,7 @@ export function MapView(props: MapViewProps) {
     "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
 
   const colorScale = scaleLinear<string>()
-    .domain([0, 3.5])
+    .domain([0, 7])
     .range(["#F3B9C8", "#DB2955"]);
 
   const countryMappingsDef = country_mappings.map((countryMapping) => {
