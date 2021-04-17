@@ -46,7 +46,11 @@ export function MapView(props: MapViewProps) {
     };
   });
 
-  console.log(mappedData);
+  const filteredData = mappedData.filter((datum) => {
+    return datum.data.Jahr >= range[0] && datum.data.Jahr <= range[1];
+  });
+
+  console.log(filteredData);
 
   const handleChange = (event: any, newValue: number | number[]) => {
     setRange(newValue as number[]);
@@ -71,6 +75,7 @@ export function MapView(props: MapViewProps) {
               left: "20px",
               right: "20px",
               width: "40%",
+              top: "20px",
             }}
           />
           <ComposableMap
@@ -86,11 +91,11 @@ export function MapView(props: MapViewProps) {
               fill={"white"}
             />
             <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
-            {mappedData.length > 0 && (
+            {filteredData.length > 0 && (
               <Geographies geography={geoUrl}>
                 {({ geographies }) =>
                   geographies.map((geo) => {
-                    const d = mappedData.find(
+                    const d = filteredData.find(
                       (s) => s.mapping?.abbreviation === geo.properties.ISO_A3
                     );
                     return (
