@@ -108,6 +108,7 @@ export function MapView(props: MapViewProps) {
             }}
           />
           <ComposableMap
+            data-tip=""
             style={{
               position: "relative",
               width: "95%",
@@ -139,7 +140,9 @@ export function MapView(props: MapViewProps) {
                           fill={d ? colorScale(Math.log(d.count)) : "#F5F4F6"}
                           onMouseEnter={() => {
                             const { NAME, POP_EST } = geo.properties;
-                            setContent(`${NAME} — ${POP_EST}`);
+                            setContent(
+                              `${NAME} — ${d?.count ? d?.count : "no "} objects`
+                            );
                           }}
                           onMouseLeave={() => {
                             setContent("");
@@ -161,6 +164,7 @@ export function MapView(props: MapViewProps) {
               )}
             </ZoomableGroup>
           </ComposableMap>
+          <ReactTooltip>{content}</ReactTooltip>
         </div>
       )}
     </div>
