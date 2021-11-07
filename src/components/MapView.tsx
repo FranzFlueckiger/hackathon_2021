@@ -1,4 +1,4 @@
-import { country_mappings } from "../data/countriy_mappings";
+import { country_mappings } from "../data/country_mappings";
 import React from "react";
 import {
   ComposableMap,
@@ -92,7 +92,6 @@ export function MapView(props: MapViewProps) {
     >
       {value === index && (
         <div>
-          <h1 style={{ fontSize: 50 }}>Mapping a Collection</h1>
           <Slider
             value={range}
             onChange={handleChange}
@@ -170,15 +169,3 @@ export function MapView(props: MapViewProps) {
     </div>
   );
 }
-
-/* /* <MapContainer center={[51.505, -0.09]} zoom={5} scrollWheelZoom={false}>
-        <TileLayer
-          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
-        <Marker position={[51.505, -0.09]}>
-          <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
-          </Popup>
-        </Marker>
-      </MapContainer> */

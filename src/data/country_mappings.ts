@@ -9,7 +9,7 @@ export const country_mappings: {
   UN: string | null;
 }[] = [
   {
-    Land: " Afghanistan",
+    Land: "Afghanistan",
     ISO_3166: "AF",
     ISO_3166_1: "AFG",
     ISO_3166_2: "4",
@@ -19,7 +19,7 @@ export const country_mappings: {
     UN: "AF",
   },
   {
-    Land: " Ägypten",
+    Land: "Ägypten",
     ISO_3166: "EG",
     ISO_3166_1: "EGY",
     ISO_3166_2: "818",
@@ -29,7 +29,7 @@ export const country_mappings: {
     UN: "EG",
   },
   {
-    Land: " ÅLand",
+    Land: "ÅLand",
     ISO_3166: "AX",
     ISO_3166_1: "ALA",
     ISO_3166_2: "248",
@@ -39,7 +39,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Albanien",
+    Land: "Albanien",
     ISO_3166: "AL",
     ISO_3166_1: "ALB",
     ISO_3166_2: "8",
@@ -49,7 +49,7 @@ export const country_mappings: {
     UN: "AL",
   },
   {
-    Land: " Algerien",
+    Land: "Algerien",
     ISO_3166: "DZ",
     ISO_3166_1: "DZA",
     ISO_3166_2: "12",
@@ -59,7 +59,7 @@ export const country_mappings: {
     UN: "DZ",
   },
   {
-    Land: " Amerikanisch-Samoa",
+    Land: "Amerikanisch-Samoa",
     ISO_3166: "AS",
     ISO_3166_1: "ASM",
     ISO_3166_2: "16",
@@ -69,7 +69,7 @@ export const country_mappings: {
     UN: "AS",
   },
   {
-    Land: " Amerikanische Jungferninseln",
+    Land: "Amerikanische Jungferninseln",
     ISO_3166: "VI",
     ISO_3166_1: "VIR",
     ISO_3166_2: "850",
@@ -79,7 +79,7 @@ export const country_mappings: {
     UN: "VI",
   },
   {
-    Land: " Andorra",
+    Land: "Andorra",
     ISO_3166: "AD",
     ISO_3166_1: "AND",
     ISO_3166_2: "20",
@@ -89,7 +89,7 @@ export const country_mappings: {
     UN: "AD",
   },
   {
-    Land: " Angola",
+    Land: "Angola",
     ISO_3166: "AO",
     ISO_3166_1: "AGO",
     ISO_3166_2: "24",
@@ -99,7 +99,7 @@ export const country_mappings: {
     UN: "AO",
   },
   {
-    Land: " Anguilla",
+    Land: "Anguilla",
     ISO_3166: "AI",
     ISO_3166_1: "AIA",
     ISO_3166_2: "660",
@@ -109,7 +109,7 @@ export const country_mappings: {
     UN: "AI",
   },
   {
-    Land: " Antarktis",
+    Land: "Antarktis",
     ISO_3166: "AQ",
     ISO_3166_1: "ATA",
     ISO_3166_2: "10",
@@ -129,7 +129,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Antigua und Barbuda",
+    Land: "Antigua und Barbuda",
     ISO_3166: "AG",
     ISO_3166_1: "ATG",
     ISO_3166_2: "28",
@@ -139,7 +139,7 @@ export const country_mappings: {
     UN: "AG",
   },
   {
-    Land: " Äquatorialguinea",
+    Land: "Äquatorialguinea",
     ISO_3166: "GQ",
     ISO_3166_1: "GNQ",
     ISO_3166_2: "226",
@@ -149,7 +149,7 @@ export const country_mappings: {
     UN: "GQ",
   },
   {
-    Land: " Argentinien",
+    Land: "Argentinien",
     ISO_3166: "AR",
     ISO_3166_1: "ARG",
     ISO_3166_2: "32",
@@ -159,7 +159,7 @@ export const country_mappings: {
     UN: "AR",
   },
   {
-    Land: " Armenien",
+    Land: "Armenien",
     ISO_3166: "AM",
     ISO_3166_1: "ARM",
     ISO_3166_2: "51",
@@ -169,7 +169,7 @@ export const country_mappings: {
     UN: "AM",
   },
   {
-    Land: " Aruba",
+    Land: "Aruba",
     ISO_3166: "AW",
     ISO_3166_1: "ABW",
     ISO_3166_2: "533",
@@ -179,7 +179,7 @@ export const country_mappings: {
     UN: "AW",
   },
   {
-    Land: " Ascension (verwaltet von St. Helena,",
+    Land: "Ascension (verwaltet von St. Helena,",
     ISO_3166: "AC[1]",
     ISO_3166_1: "ASC",
     ISO_3166_2: null,
@@ -199,7 +199,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Aserbaidschan",
+    Land: "Aserbaidschan",
     ISO_3166: "AZ",
     ISO_3166_1: "AZE",
     ISO_3166_2: "31",
@@ -209,7 +209,7 @@ export const country_mappings: {
     UN: "AZ",
   },
   {
-    Land: " Äthiopien",
+    Land: "Äthiopien",
     ISO_3166: "ET",
     ISO_3166_1: "ETH",
     ISO_3166_2: "231",
@@ -219,7 +219,7 @@ export const country_mappings: {
     UN: "ET",
   },
   {
-    Land: " Australien",
+    Land: "Australien",
     ISO_3166: "AU",
     ISO_3166_1: "AUS",
     ISO_3166_2: "36",
@@ -229,7 +229,7 @@ export const country_mappings: {
     UN: "AU",
   },
   {
-    Land: " Bahamas",
+    Land: "Bahamas",
     ISO_3166: "BS",
     ISO_3166_1: "BHS",
     ISO_3166_2: "44",
@@ -239,7 +239,7 @@ export const country_mappings: {
     UN: "BS",
   },
   {
-    Land: " Bahrain",
+    Land: "Bahrain",
     ISO_3166: "BH",
     ISO_3166_1: "BHR",
     ISO_3166_2: "48",
@@ -249,7 +249,7 @@ export const country_mappings: {
     UN: "BH",
   },
   {
-    Land: " Bangladesch",
+    Land: "Bangladesch",
     ISO_3166: "BD",
     ISO_3166_1: "BGD",
     ISO_3166_2: "50",
@@ -259,7 +259,7 @@ export const country_mappings: {
     UN: "BD",
   },
   {
-    Land: " Barbados",
+    Land: "Barbados",
     ISO_3166: "BB",
     ISO_3166_1: "BRB",
     ISO_3166_2: "52",
@@ -269,7 +269,7 @@ export const country_mappings: {
     UN: "BB",
   },
   {
-    Land: " Weißrussland",
+    Land: "Weissrussland",
     ISO_3166: "BY",
     ISO_3166_1: "BLR (BYS[2])",
     ISO_3166_2: "112",
@@ -277,19 +277,19 @@ export const country_mappings: {
     IOC: "BLR",
     other_country_code: "BY",
     UN: "BY",
-  },
+  }, 
   {
-    Land: " Belgien",
+    Land: "Belgien",
     ISO_3166: "BE",
     ISO_3166_1: "BEL",
     ISO_3166_2: "56",
     TLD: ".be",
     IOC: "BEL",
-    other_country_code: "BE",
+    other_country_code: "BE", 
     UN: "BE",
   },
   {
-    Land: " Belize",
+    Land: "Belize",
     ISO_3166: "BZ",
     ISO_3166_1: "BLZ",
     ISO_3166_2: "84",
@@ -299,7 +299,7 @@ export const country_mappings: {
     UN: "BZ",
   },
   {
-    Land: " Benin",
+    Land: "Benin",
     ISO_3166: "BJ",
     ISO_3166_1: "BEN",
     ISO_3166_2: "204",
@@ -309,7 +309,7 @@ export const country_mappings: {
     UN: "BJ",
   },
   {
-    Land: " Bermuda",
+    Land: "Bermuda",
     ISO_3166: "BM",
     ISO_3166_1: "BMU",
     ISO_3166_2: "60",
@@ -319,7 +319,7 @@ export const country_mappings: {
     UN: "BM",
   },
   {
-    Land: " Bhutan",
+    Land: "Bhutan",
     ISO_3166: "BT",
     ISO_3166_1: "BTN",
     ISO_3166_2: "64",
@@ -329,7 +329,7 @@ export const country_mappings: {
     UN: "BT",
   },
   {
-    Land: " Bolivien",
+    Land: "Bolivien",
     ISO_3166: "BO",
     ISO_3166_1: "BOL",
     ISO_3166_2: "68",
@@ -339,7 +339,7 @@ export const country_mappings: {
     UN: "BO",
   },
   {
-    Land: " Bonaire,  Saba,  Sint Eustatius",
+    Land: "Bonaire,  Saba,  Sint Eustatius",
     ISO_3166: "BQ",
     ISO_3166_1: "BES",
     ISO_3166_2: "535",
@@ -349,7 +349,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Bosnien und Herzegowina",
+    Land: "Bosnien und Herzegowina",
     ISO_3166: "BA",
     ISO_3166_1: "BIH",
     ISO_3166_2: "70",
@@ -359,7 +359,7 @@ export const country_mappings: {
     UN: "BA",
   },
   {
-    Land: " Botswana",
+    Land: "Botswana",
     ISO_3166: "BW",
     ISO_3166_1: "BWA",
     ISO_3166_2: "72",
@@ -369,7 +369,7 @@ export const country_mappings: {
     UN: "BW",
   },
   {
-    Land: " Bouvetinsel",
+    Land: "Bouvetinsel",
     ISO_3166: "BV",
     ISO_3166_1: "BVT",
     ISO_3166_2: "74",
@@ -379,7 +379,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Brasilien",
+    Land: "Brasilien",
     ISO_3166: "BR",
     ISO_3166_1: "BRA",
     ISO_3166_2: "76",
@@ -389,7 +389,7 @@ export const country_mappings: {
     UN: "BR",
   },
   {
-    Land: " Britische Jungferninseln",
+    Land: "Britische Jungferninseln",
     ISO_3166: "VG",
     ISO_3166_1: "VGB",
     ISO_3166_2: "92",
@@ -399,7 +399,7 @@ export const country_mappings: {
     UN: "VG",
   },
   {
-    Land: " Britisches Territorium im Indischen Ozean",
+    Land: "Britisches Territorium im Indischen Ozean",
     ISO_3166: "IO",
     ISO_3166_1: "IOT",
     ISO_3166_2: "86",
@@ -409,7 +409,7 @@ export const country_mappings: {
     UN: "IO",
   },
   {
-    Land: " Brunei",
+    Land: "Brunei",
     ISO_3166: "BN",
     ISO_3166_1: "BRN",
     ISO_3166_2: "96",
@@ -419,7 +419,7 @@ export const country_mappings: {
     UN: "BN",
   },
   {
-    Land: " Bulgarien",
+    Land: "Bulgarien",
     ISO_3166: "BG",
     ISO_3166_1: "BGR",
     ISO_3166_2: "100",
@@ -429,7 +429,7 @@ export const country_mappings: {
     UN: "BG",
   },
   {
-    Land: " Burkina Faso",
+    Land: "Burkina Faso",
     ISO_3166: "BF",
     ISO_3166_1: "BFA",
     ISO_3166_2: "854",
@@ -449,7 +449,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Burundi",
+    Land: "Burundi",
     ISO_3166: "BI",
     ISO_3166_1: "BDI",
     ISO_3166_2: "108",
@@ -459,7 +459,7 @@ export const country_mappings: {
     UN: "BI",
   },
   {
-    Land: " Ceuta,  Melilla",
+    Land: "Ceuta,  Melilla",
     ISO_3166: "EA[1]",
     ISO_3166_1: null,
     ISO_3166_2: null,
@@ -469,7 +469,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Chile",
+    Land: "Chile",
     ISO_3166: "CL",
     ISO_3166_1: "CHL",
     ISO_3166_2: "152",
@@ -479,7 +479,7 @@ export const country_mappings: {
     UN: "CL",
   },
   {
-    Land: " Volksrepublik China",
+    Land: "China",
     ISO_3166: "CN",
     ISO_3166_1: "CHN",
     ISO_3166_2: "156",
@@ -509,7 +509,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Cookinseln",
+    Land: "Cookinseln",
     ISO_3166: "CK",
     ISO_3166_1: "COK",
     ISO_3166_2: "184",
@@ -519,7 +519,7 @@ export const country_mappings: {
     UN: "CK",
   },
   {
-    Land: " Costa Rica",
+    Land: "Costa Rica",
     ISO_3166: "CR",
     ISO_3166_1: "CRI",
     ISO_3166_2: "188",
@@ -529,7 +529,7 @@ export const country_mappings: {
     UN: "CR",
   },
   {
-    Land: " Curaçao",
+    Land: "Curaçao",
     ISO_3166: "CW",
     ISO_3166_1: "CUW",
     ISO_3166_2: "531",
@@ -539,7 +539,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Dänemark",
+    Land: "Dänemark",
     ISO_3166: "DK",
     ISO_3166_1: "DNK",
     ISO_3166_2: "208",
@@ -549,7 +549,7 @@ export const country_mappings: {
     UN: "DK",
   },
   {
-    Land: " Deutsche Demokratische Republik (historisch)",
+    Land: "Deutsche Demokratische Republik (historisch)",
     ISO_3166: "DD",
     ISO_3166_1: "DDR",
     ISO_3166_2: "278",
@@ -559,7 +559,7 @@ export const country_mappings: {
     UN: "DD",
   },
   {
-    Land: " Deutschland",
+    Land: "Deutschland",
     ISO_3166: "DE",
     ISO_3166_1: "DEU",
     ISO_3166_2: "276",
@@ -569,7 +569,7 @@ export const country_mappings: {
     UN: "DE",
   },
   {
-    Land: " Diego Garcia (reserviert für ITU)",
+    Land: "Diego Garcia (reserviert für ITU)",
     ISO_3166: "DG[1]",
     ISO_3166_1: "DGA",
     ISO_3166_2: null,
@@ -579,7 +579,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Dominica",
+    Land: "Dominica",
     ISO_3166: "DM",
     ISO_3166_1: "DMA",
     ISO_3166_2: "212",
@@ -589,7 +589,7 @@ export const country_mappings: {
     UN: "DM",
   },
   {
-    Land: " Dominikanische Republik",
+    Land: "Dominikanische Republik",
     ISO_3166: "DO",
     ISO_3166_1: "DOM",
     ISO_3166_2: "214",
@@ -599,7 +599,7 @@ export const country_mappings: {
     UN: "DO",
   },
   {
-    Land: " Dschibuti",
+    Land: "Dschibuti",
     ISO_3166: "DJ",
     ISO_3166_1: "DJI",
     ISO_3166_2: "262",
@@ -609,7 +609,7 @@ export const country_mappings: {
     UN: "DJ",
   },
   {
-    Land: " Ecuador",
+    Land: "Ecuador",
     ISO_3166: "EC",
     ISO_3166_1: "ECU",
     ISO_3166_2: "218",
@@ -619,7 +619,7 @@ export const country_mappings: {
     UN: "EC",
   },
   {
-    Land: " Elfenbeinküste",
+    Land: "Elfenbeinküste",
     ISO_3166: "CI",
     ISO_3166_1: "CIV",
     ISO_3166_2: "384",
@@ -629,7 +629,7 @@ export const country_mappings: {
     UN: "CI",
   },
   {
-    Land: " El Salvador",
+    Land: "El Salvador",
     ISO_3166: "SV",
     ISO_3166_1: "SLV",
     ISO_3166_2: "222",
@@ -639,7 +639,7 @@ export const country_mappings: {
     UN: "SV",
   },
   {
-    Land: " Eritrea",
+    Land: "Eritrea",
     ISO_3166: "ER",
     ISO_3166_1: "ERI",
     ISO_3166_2: "232",
@@ -649,7 +649,7 @@ export const country_mappings: {
     UN: "ER",
   },
   {
-    Land: " Estland",
+    Land: "Estland",
     ISO_3166: "EE",
     ISO_3166_1: "EST",
     ISO_3166_2: "233",
@@ -659,7 +659,7 @@ export const country_mappings: {
     UN: "EE",
   },
   {
-    Land: " Eswatini[3]",
+    Land: "Eswatini[3]",
     ISO_3166: "SZ",
     ISO_3166_1: "SWZ",
     ISO_3166_2: "748",
@@ -669,7 +669,7 @@ export const country_mappings: {
     UN: "SZ",
   },
   {
-    Land: " Europäische Gemeinschaft",
+    Land: "Europäische Gemeinschaft",
     ISO_3166: "CE[2]",
     ISO_3166_1: "CEE[2]/EEC[2]",
     ISO_3166_2: null,
@@ -679,7 +679,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Europäische Union",
+    Land: "Europäische Union",
     ISO_3166: "EU[1]",
     ISO_3166_1: null,
     ISO_3166_2: null,
@@ -689,7 +689,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Falklandinseln",
+    Land: "Falklandinseln",
     ISO_3166: "FK",
     ISO_3166_1: "FLK",
     ISO_3166_2: "238",
@@ -699,7 +699,7 @@ export const country_mappings: {
     UN: "FK",
   },
   {
-    Land: " Färöer",
+    Land: "Färöer",
     ISO_3166: "FO",
     ISO_3166_1: "FRO",
     ISO_3166_2: "234",
@@ -709,7 +709,7 @@ export const country_mappings: {
     UN: "FO",
   },
   {
-    Land: " Fidschi",
+    Land: "Fidschi",
     ISO_3166: "FJ",
     ISO_3166_1: "FJI",
     ISO_3166_2: "242",
@@ -719,7 +719,7 @@ export const country_mappings: {
     UN: "FJ",
   },
   {
-    Land: " Finnland",
+    Land: "Finnland",
     ISO_3166: "FI (SF[2])",
     ISO_3166_1: "FIN",
     ISO_3166_2: "246",
@@ -729,7 +729,7 @@ export const country_mappings: {
     UN: "FI",
   },
   {
-    Land: " Frankreich",
+    Land: "Frankreich",
     ISO_3166: "FR",
     ISO_3166_1: "FRA",
     ISO_3166_2: "250",
@@ -739,7 +739,7 @@ export const country_mappings: {
     UN: "FR",
   },
   {
-    Land: " Frankreich France métropolitaine",
+    Land: "Frankreich France métropolitaine",
     ISO_3166: "FX[1]",
     ISO_3166_1: "FXX",
     ISO_3166_2: "249[2]",
@@ -759,7 +759,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Französisch-Guayana",
+    Land: "Französisch-Guayana",
     ISO_3166: "GF",
     ISO_3166_1: "GUF",
     ISO_3166_2: "254",
@@ -769,7 +769,7 @@ export const country_mappings: {
     UN: "GF",
   },
   {
-    Land: " Französisch-Polynesien",
+    Land: "Französisch-Polynesien",
     ISO_3166: "PF",
     ISO_3166_1: "PYF",
     ISO_3166_2: "258",
@@ -779,7 +779,7 @@ export const country_mappings: {
     UN: "PF",
   },
   {
-    Land: " Französische Süd- und Antarktisgebiete",
+    Land: "Französische Süd- und Antarktisgebiete",
     ISO_3166: "TF",
     ISO_3166_1: "ATF",
     ISO_3166_2: "260",
@@ -789,7 +789,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Gabun",
+    Land: "Gabun",
     ISO_3166: "GA",
     ISO_3166_1: "GAB",
     ISO_3166_2: "266",
@@ -799,7 +799,7 @@ export const country_mappings: {
     UN: "GA",
   },
   {
-    Land: " Gambia",
+    Land: "Gambia",
     ISO_3166: "GM",
     ISO_3166_1: "GMB",
     ISO_3166_2: "270",
@@ -809,7 +809,7 @@ export const country_mappings: {
     UN: "GM",
   },
   {
-    Land: " Georgien",
+    Land: "Georgien",
     ISO_3166: "GE",
     ISO_3166_1: "GEO",
     ISO_3166_2: "268",
@@ -819,7 +819,7 @@ export const country_mappings: {
     UN: "GE",
   },
   {
-    Land: " Ghana",
+    Land: "Ghana",
     ISO_3166: "GH",
     ISO_3166_1: "GHA",
     ISO_3166_2: "288",
@@ -829,7 +829,7 @@ export const country_mappings: {
     UN: "GH",
   },
   {
-    Land: " Gibraltar",
+    Land: "Gibraltar",
     ISO_3166: "GI",
     ISO_3166_1: "GIB",
     ISO_3166_2: "292",
@@ -839,7 +839,7 @@ export const country_mappings: {
     UN: "GI",
   },
   {
-    Land: " Grenada",
+    Land: "Grenada",
     ISO_3166: "GD",
     ISO_3166_1: "GRD",
     ISO_3166_2: "308",
@@ -849,7 +849,7 @@ export const country_mappings: {
     UN: "GD",
   },
   {
-    Land: " Griechenland",
+    Land: "Griechenland",
     ISO_3166: "GR",
     ISO_3166_1: "GRC",
     ISO_3166_2: "300",
@@ -859,7 +859,7 @@ export const country_mappings: {
     UN: "GR",
   },
   {
-    Land: " Grönland",
+    Land: "Grönland",
     ISO_3166: "GL",
     ISO_3166_1: "GRL",
     ISO_3166_2: "304",
@@ -869,7 +869,7 @@ export const country_mappings: {
     UN: "GL",
   },
   {
-    Land: " Guadeloupe",
+    Land: "Guadeloupe",
     ISO_3166: "GP",
     ISO_3166_1: "GLP",
     ISO_3166_2: "312",
@@ -879,7 +879,7 @@ export const country_mappings: {
     UN: "GP",
   },
   {
-    Land: " Guam",
+    Land: "Guam",
     ISO_3166: "GU",
     ISO_3166_1: "GUM",
     ISO_3166_2: "316",
@@ -889,7 +889,7 @@ export const country_mappings: {
     UN: "GU",
   },
   {
-    Land: " Guatemala",
+    Land: "Guatemala",
     ISO_3166: "GT",
     ISO_3166_1: "GTM",
     ISO_3166_2: "320",
@@ -899,7 +899,7 @@ export const country_mappings: {
     UN: "GT",
   },
   {
-    Land: " Guernsey (Kanalinsel)",
+    Land: "Guernsey (Kanalinsel)",
     ISO_3166: "GG",
     ISO_3166_1: "GGY",
     ISO_3166_2: "831",
@@ -909,7 +909,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Guinea",
+    Land: "Guinea",
     ISO_3166: "GN",
     ISO_3166_1: "GIN",
     ISO_3166_2: "324",
@@ -919,7 +919,7 @@ export const country_mappings: {
     UN: "GN",
   },
   {
-    Land: " Guinea-Bissau",
+    Land: "Guinea-Bissau",
     ISO_3166: "GW",
     ISO_3166_1: "GNB",
     ISO_3166_2: "624",
@@ -929,7 +929,7 @@ export const country_mappings: {
     UN: "GW",
   },
   {
-    Land: " Guyana",
+    Land: "Guyana",
     ISO_3166: "GY",
     ISO_3166_1: "GUY",
     ISO_3166_2: "328",
@@ -939,7 +939,7 @@ export const country_mappings: {
     UN: "GY",
   },
   {
-    Land: " Haiti",
+    Land: "Haiti",
     ISO_3166: "HT",
     ISO_3166_1: "HTI",
     ISO_3166_2: "332",
@@ -949,7 +949,7 @@ export const country_mappings: {
     UN: "HT",
   },
   {
-    Land: " Heard und McDonaldinseln",
+    Land: "Heard und McDonaldinseln",
     ISO_3166: "HM",
     ISO_3166_1: "HMD",
     ISO_3166_2: "334",
@@ -959,7 +959,7 @@ export const country_mappings: {
     UN: "HM",
   },
   {
-    Land: " Honduras",
+    Land: "Honduras",
     ISO_3166: "HN",
     ISO_3166_1: "HND",
     ISO_3166_2: "340",
@@ -969,7 +969,7 @@ export const country_mappings: {
     UN: "HN",
   },
   {
-    Land: " Hongkong",
+    Land: "Hongkong",
     ISO_3166: "HK",
     ISO_3166_1: "HKG",
     ISO_3166_2: "344",
@@ -979,7 +979,7 @@ export const country_mappings: {
     UN: "HK",
   },
   {
-    Land: " Indien",
+    Land: "Indien",
     ISO_3166: "IN",
     ISO_3166_1: "IND",
     ISO_3166_2: "356",
@@ -989,7 +989,7 @@ export const country_mappings: {
     UN: "IN",
   },
   {
-    Land: " Indonesien",
+    Land: "Indonesien",
     ISO_3166: "ID",
     ISO_3166_1: "IDN",
     ISO_3166_2: "360",
@@ -999,7 +999,7 @@ export const country_mappings: {
     UN: "ID",
   },
   {
-    Land: " Isle of Man",
+    Land: "Isle of Man",
     ISO_3166: "IM",
     ISO_3166_1: "IMN",
     ISO_3166_2: "833",
@@ -1009,7 +1009,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Irak",
+    Land: "Irak",
     ISO_3166: "IQ",
     ISO_3166_1: "IRQ",
     ISO_3166_2: "368",
@@ -1019,7 +1019,7 @@ export const country_mappings: {
     UN: "IQ",
   },
   {
-    Land: " Iran",
+    Land: "Iran",
     ISO_3166: "IR",
     ISO_3166_1: "IRN",
     ISO_3166_2: "364",
@@ -1029,7 +1029,7 @@ export const country_mappings: {
     UN: "IR",
   },
   {
-    Land: " Irland",
+    Land: "Irland",
     ISO_3166: "IE",
     ISO_3166_1: "IRL",
     ISO_3166_2: "372",
@@ -1039,7 +1039,7 @@ export const country_mappings: {
     UN: "IE",
   },
   {
-    Land: " Island",
+    Land: "Island",
     ISO_3166: "IS",
     ISO_3166_1: "ISL",
     ISO_3166_2: "352",
@@ -1049,7 +1049,7 @@ export const country_mappings: {
     UN: "IS",
   },
   {
-    Land: " Israel",
+    Land: "Israel",
     ISO_3166: "IL",
     ISO_3166_1: "ISR",
     ISO_3166_2: "376",
@@ -1059,7 +1059,7 @@ export const country_mappings: {
     UN: "IL",
   },
   {
-    Land: " Italien",
+    Land: "Italien",
     ISO_3166: "IT",
     ISO_3166_1: "ITA",
     ISO_3166_2: "380",
@@ -1069,7 +1069,7 @@ export const country_mappings: {
     UN: "IT",
   },
   {
-    Land: " Jamaika",
+    Land: "Jamaika",
     ISO_3166: "JM",
     ISO_3166_1: "JAM",
     ISO_3166_2: "388",
@@ -1079,7 +1079,7 @@ export const country_mappings: {
     UN: "JM",
   },
   {
-    Land: " Japan",
+    Land: "Japan",
     ISO_3166: "JP",
     ISO_3166_1: "JPN",
     ISO_3166_2: "392",
@@ -1089,7 +1089,7 @@ export const country_mappings: {
     UN: "JP",
   },
   {
-    Land: " Jemen",
+    Land: "Jemen",
     ISO_3166: "YE",
     ISO_3166_1: "YEM",
     ISO_3166_2: "887",
@@ -1099,7 +1099,7 @@ export const country_mappings: {
     UN: "YE",
   },
   {
-    Land: " Jersey (Kanalinsel)",
+    Land: "Jersey (Kanalinsel)",
     ISO_3166: "JE",
     ISO_3166_1: "JEY",
     ISO_3166_2: "832",
@@ -1109,7 +1109,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Jordanien",
+    Land: "Jordanien",
     ISO_3166: "JO",
     ISO_3166_1: "JOR",
     ISO_3166_2: "400",
@@ -1129,7 +1129,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Cayman Islands (Kaimaninseln)",
+    Land: "Cayman Islands (Kaimaninseln)",
     ISO_3166: "KY",
     ISO_3166_1: "CYM",
     ISO_3166_2: "136",
@@ -1139,7 +1139,7 @@ export const country_mappings: {
     UN: "KY",
   },
   {
-    Land: " Kambodscha",
+    Land: "Kambodscha",
     ISO_3166: "KH",
     ISO_3166_1: "KHM",
     ISO_3166_2: "116",
@@ -1149,7 +1149,7 @@ export const country_mappings: {
     UN: "KH",
   },
   {
-    Land: " Kamerun",
+    Land: "Kamerun",
     ISO_3166: "CM",
     ISO_3166_1: "CMR",
     ISO_3166_2: "120",
@@ -1159,7 +1159,7 @@ export const country_mappings: {
     UN: "CM",
   },
   {
-    Land: " Kanada",
+    Land: "Kanada",
     ISO_3166: "CA",
     ISO_3166_1: "CAN",
     ISO_3166_2: "124",
@@ -1169,7 +1169,7 @@ export const country_mappings: {
     UN: "CA",
   },
   {
-    Land: " Kanarische Inseln",
+    Land: "Kanarische Inseln",
     ISO_3166: "IC[1]",
     ISO_3166_1: null,
     ISO_3166_2: null,
@@ -1179,7 +1179,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Kap Verde (Cabo Verde)",
+    Land: "Kap Verde (Cabo Verde)",
     ISO_3166: "CV",
     ISO_3166_1: "CPV",
     ISO_3166_2: "132",
@@ -1189,7 +1189,7 @@ export const country_mappings: {
     UN: "CV",
   },
   {
-    Land: " Kasachstan",
+    Land: "Kasachstan",
     ISO_3166: "KZ",
     ISO_3166_1: "KAZ",
     ISO_3166_2: "398",
@@ -1199,7 +1199,7 @@ export const country_mappings: {
     UN: "KZ",
   },
   {
-    Land: " Katar",
+    Land: "Katar",
     ISO_3166: "QA",
     ISO_3166_1: "QAT",
     ISO_3166_2: "634",
@@ -1209,7 +1209,7 @@ export const country_mappings: {
     UN: "QA",
   },
   {
-    Land: " Kenia",
+    Land: "Kenia",
     ISO_3166: "KE",
     ISO_3166_1: "KEN",
     ISO_3166_2: "404",
@@ -1219,7 +1219,7 @@ export const country_mappings: {
     UN: "KE",
   },
   {
-    Land: " Kirgisistan",
+    Land: "Kirgisistan",
     ISO_3166: "KG",
     ISO_3166_1: "KGZ",
     ISO_3166_2: "417",
@@ -1229,7 +1229,7 @@ export const country_mappings: {
     UN: "KG",
   },
   {
-    Land: " Kiribati",
+    Land: "Kiribati",
     ISO_3166: "KI",
     ISO_3166_1: "KIR",
     ISO_3166_2: "296",
@@ -1239,7 +1239,7 @@ export const country_mappings: {
     UN: "KI",
   },
   {
-    Land: " Kokosinseln",
+    Land: "Kokosinseln",
     ISO_3166: "CC",
     ISO_3166_1: "CCK",
     ISO_3166_2: "166",
@@ -1249,7 +1249,7 @@ export const country_mappings: {
     UN: "CC",
   },
   {
-    Land: " Kolumbien",
+    Land: "Kolumbien",
     ISO_3166: "CO",
     ISO_3166_1: "COL",
     ISO_3166_2: "170",
@@ -1259,7 +1259,7 @@ export const country_mappings: {
     UN: "CO",
   },
   {
-    Land: " Komoren",
+    Land: "Komoren",
     ISO_3166: "KM",
     ISO_3166_1: "COM",
     ISO_3166_2: "174",
@@ -1269,7 +1269,7 @@ export const country_mappings: {
     UN: "KM",
   },
   {
-    Land: " Demokratische Republik Kongo",
+    Land: "Demokratische Republik Kongo",
     ISO_3166: null,
     ISO_3166_1: null,
     ISO_3166_2: null,
@@ -1279,7 +1279,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Republik Kongo",
+    Land: "Republik Kongo",
     ISO_3166: null,
     ISO_3166_1: null,
     ISO_3166_2: null,
@@ -1289,7 +1289,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Nordkorea",
+    Land: "Nordkorea",
     ISO_3166: "KP",
     ISO_3166_1: "PRK",
     ISO_3166_2: "408",
@@ -1299,7 +1299,7 @@ export const country_mappings: {
     UN: "KP",
   },
   {
-    Land: " Südkorea",
+    Land: "Südkorea",
     ISO_3166: "KR",
     ISO_3166_1: "KOR",
     ISO_3166_2: "410",
@@ -1309,7 +1309,7 @@ export const country_mappings: {
     UN: "KR",
   },
   {
-    Land: " Kosovo [4]",
+    Land: "Kosovo [4]",
     ISO_3166: "XK",
     ISO_3166_1: "XKX",
     ISO_3166_2: null,
@@ -1319,7 +1319,7 @@ export const country_mappings: {
     UN: "XK",
   },
   {
-    Land: " Kroatien",
+    Land: "Kroatien",
     ISO_3166: "HR",
     ISO_3166_1: "HRV",
     ISO_3166_2: "191",
@@ -1329,7 +1329,7 @@ export const country_mappings: {
     UN: "HR",
   },
   {
-    Land: " Kuba",
+    Land: "Kuba",
     ISO_3166: "CU",
     ISO_3166_1: "CUB",
     ISO_3166_2: "192",
@@ -1339,7 +1339,7 @@ export const country_mappings: {
     UN: "CU",
   },
   {
-    Land: " Kuwait",
+    Land: "Kuwait",
     ISO_3166: "KW",
     ISO_3166_1: "KWT",
     ISO_3166_2: "414",
@@ -1349,7 +1349,7 @@ export const country_mappings: {
     UN: "KW",
   },
   {
-    Land: " Laos",
+    Land: "Laos",
     ISO_3166: "LA",
     ISO_3166_1: "LAO",
     ISO_3166_2: "418",
@@ -1359,7 +1359,7 @@ export const country_mappings: {
     UN: "LA",
   },
   {
-    Land: " Lesotho",
+    Land: "Lesotho",
     ISO_3166: "LS",
     ISO_3166_1: "LSO",
     ISO_3166_2: "426",
@@ -1369,7 +1369,7 @@ export const country_mappings: {
     UN: "LS",
   },
   {
-    Land: " Lettland",
+    Land: "Lettland",
     ISO_3166: "LV",
     ISO_3166_1: "LVA",
     ISO_3166_2: "428",
@@ -1379,7 +1379,7 @@ export const country_mappings: {
     UN: "LV",
   },
   {
-    Land: " Libanon",
+    Land: "Libanon",
     ISO_3166: "LB",
     ISO_3166_1: "LBN",
     ISO_3166_2: "422",
@@ -1389,7 +1389,7 @@ export const country_mappings: {
     UN: "LB",
   },
   {
-    Land: " Liberia",
+    Land: "Liberia",
     ISO_3166: "LR",
     ISO_3166_1: "LBR",
     ISO_3166_2: "430",
@@ -1399,7 +1399,7 @@ export const country_mappings: {
     UN: "LR",
   },
   {
-    Land: " Libyen",
+    Land: "Libyen",
     ISO_3166: "LY",
     ISO_3166_1: "LBY",
     ISO_3166_2: "434",
@@ -1409,7 +1409,7 @@ export const country_mappings: {
     UN: "LY",
   },
   {
-    Land: " Liechtenstein",
+    Land: "Liechtenstein",
     ISO_3166: "LI",
     ISO_3166_1: "LIE",
     ISO_3166_2: "438",
@@ -1419,7 +1419,7 @@ export const country_mappings: {
     UN: "LI",
   },
   {
-    Land: " Litauen",
+    Land: "Litauen",
     ISO_3166: "LT",
     ISO_3166_1: "LTU",
     ISO_3166_2: "440",
@@ -1429,7 +1429,7 @@ export const country_mappings: {
     UN: "LT",
   },
   {
-    Land: " Luxemburg",
+    Land: "Luxemburg",
     ISO_3166: "LU",
     ISO_3166_1: "LUX",
     ISO_3166_2: "442",
@@ -1439,7 +1439,7 @@ export const country_mappings: {
     UN: "LU",
   },
   {
-    Land: " Macau",
+    Land: "Macau",
     ISO_3166: "MO",
     ISO_3166_1: "MAC",
     ISO_3166_2: "446",
@@ -1449,7 +1449,7 @@ export const country_mappings: {
     UN: "MO",
   },
   {
-    Land: " Madagaskar",
+    Land: "Madagaskar",
     ISO_3166: "MG",
     ISO_3166_1: "MDG",
     ISO_3166_2: "450",
@@ -1459,7 +1459,7 @@ export const country_mappings: {
     UN: "MG",
   },
   {
-    Land: " Malawi",
+    Land: "Malawi",
     ISO_3166: "MW",
     ISO_3166_1: "MWI",
     ISO_3166_2: "454",
@@ -1469,7 +1469,7 @@ export const country_mappings: {
     UN: "MW",
   },
   {
-    Land: " Malaysia",
+    Land: "Malaysia",
     ISO_3166: "MY",
     ISO_3166_1: "MYS",
     ISO_3166_2: "458",
@@ -1479,7 +1479,7 @@ export const country_mappings: {
     UN: "MY",
   },
   {
-    Land: " Malediven",
+    Land: "Malediven",
     ISO_3166: "MV",
     ISO_3166_1: "MDV",
     ISO_3166_2: "462",
@@ -1489,7 +1489,7 @@ export const country_mappings: {
     UN: "MV",
   },
   {
-    Land: " Mali",
+    Land: "Mali",
     ISO_3166: "ML",
     ISO_3166_1: "MLI",
     ISO_3166_2: "466",
@@ -1499,7 +1499,7 @@ export const country_mappings: {
     UN: "ML",
   },
   {
-    Land: " Malta",
+    Land: "Malta",
     ISO_3166: "MT",
     ISO_3166_1: "MLT",
     ISO_3166_2: "470",
@@ -1509,7 +1509,7 @@ export const country_mappings: {
     UN: "MT",
   },
   {
-    Land: " Marokko",
+    Land: "Marokko",
     ISO_3166: "MA",
     ISO_3166_1: "MAR",
     ISO_3166_2: "504",
@@ -1519,7 +1519,7 @@ export const country_mappings: {
     UN: "MA",
   },
   {
-    Land: " Marshallinseln",
+    Land: "Marshallinseln",
     ISO_3166: "MH",
     ISO_3166_1: "MHL",
     ISO_3166_2: "584",
@@ -1529,7 +1529,7 @@ export const country_mappings: {
     UN: "MH",
   },
   {
-    Land: " Martinique",
+    Land: "Martinique",
     ISO_3166: "MQ",
     ISO_3166_1: "MTQ",
     ISO_3166_2: "474",
@@ -1539,7 +1539,7 @@ export const country_mappings: {
     UN: "MQ",
   },
   {
-    Land: " Mauretanien",
+    Land: "Mauretanien",
     ISO_3166: "MR",
     ISO_3166_1: "MRT",
     ISO_3166_2: "478",
@@ -1549,7 +1549,7 @@ export const country_mappings: {
     UN: "MR",
   },
   {
-    Land: " Mauritius",
+    Land: "Mauritius",
     ISO_3166: "MU",
     ISO_3166_1: "MUS",
     ISO_3166_2: "480",
@@ -1559,7 +1559,7 @@ export const country_mappings: {
     UN: "MU",
   },
   {
-    Land: " Mayotte",
+    Land: "Mayotte",
     ISO_3166: "YT",
     ISO_3166_1: "MYT",
     ISO_3166_2: "175",
@@ -1569,7 +1569,7 @@ export const country_mappings: {
     UN: "YT",
   },
   {
-    Land: " Mexiko",
+    Land: "Mexiko",
     ISO_3166: "MX",
     ISO_3166_1: "MEX",
     ISO_3166_2: "484",
@@ -1579,7 +1579,7 @@ export const country_mappings: {
     UN: "MX",
   },
   {
-    Land: " Mikronesien",
+    Land: "Mikronesien",
     ISO_3166: "FM",
     ISO_3166_1: "FSM",
     ISO_3166_2: "583",
@@ -1589,7 +1589,7 @@ export const country_mappings: {
     UN: "FM",
   },
   {
-    Land: " Moldau",
+    Land: "Moldau",
     ISO_3166: "MD",
     ISO_3166_1: "MDA",
     ISO_3166_2: "498",
@@ -1599,7 +1599,7 @@ export const country_mappings: {
     UN: "MD",
   },
   {
-    Land: " Monaco",
+    Land: "Monaco",
     ISO_3166: "MC",
     ISO_3166_1: "MCO",
     ISO_3166_2: "492",
@@ -1609,7 +1609,7 @@ export const country_mappings: {
     UN: "MC",
   },
   {
-    Land: " Mongolei",
+    Land: "Mongolei",
     ISO_3166: "MN",
     ISO_3166_1: "MNG",
     ISO_3166_2: "496",
@@ -1619,7 +1619,7 @@ export const country_mappings: {
     UN: "MN",
   },
   {
-    Land: " Montenegro",
+    Land: "Montenegro",
     ISO_3166: "ME",
     ISO_3166_1: "MNE",
     ISO_3166_2: "499",
@@ -1629,7 +1629,7 @@ export const country_mappings: {
     UN: "ME",
   },
   {
-    Land: " Montserrat",
+    Land: "Montserrat",
     ISO_3166: "MS",
     ISO_3166_1: "MSR",
     ISO_3166_2: "500",
@@ -1639,7 +1639,7 @@ export const country_mappings: {
     UN: "MS",
   },
   {
-    Land: " Mosambik",
+    Land: "Mosambik",
     ISO_3166: "MZ",
     ISO_3166_1: "MOZ",
     ISO_3166_2: "508",
@@ -1649,7 +1649,7 @@ export const country_mappings: {
     UN: "MZ",
   },
   {
-    Land: " Myanmar",
+    Land: "Myanmar",
     ISO_3166: "MM",
     ISO_3166_1: "MMR",
     ISO_3166_2: "104",
@@ -1659,7 +1659,7 @@ export const country_mappings: {
     UN: "MM",
   },
   {
-    Land: " Namibia",
+    Land: "Namibia",
     ISO_3166: null,
     ISO_3166_1: "NAM",
     ISO_3166_2: "516",
@@ -1669,7 +1669,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Nauru",
+    Land: "Nauru",
     ISO_3166: "NR",
     ISO_3166_1: "NRU",
     ISO_3166_2: "520",
@@ -1679,7 +1679,7 @@ export const country_mappings: {
     UN: "NR",
   },
   {
-    Land: " Nepal",
+    Land: "Nepal",
     ISO_3166: "NP",
     ISO_3166_1: "NPL",
     ISO_3166_2: "524",
@@ -1689,7 +1689,7 @@ export const country_mappings: {
     UN: "NP",
   },
   {
-    Land: " Neukaledonien",
+    Land: "Neukaledonien",
     ISO_3166: "NC",
     ISO_3166_1: "NCL",
     ISO_3166_2: "540",
@@ -1699,7 +1699,7 @@ export const country_mappings: {
     UN: "NC",
   },
   {
-    Land: " Neuseeland",
+    Land: "Neuseeland",
     ISO_3166: "NZ",
     ISO_3166_1: "NZL",
     ISO_3166_2: "554",
@@ -1729,7 +1729,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Nicaragua",
+    Land: "Nicaragua",
     ISO_3166: "NI",
     ISO_3166_1: "NIC",
     ISO_3166_2: "558",
@@ -1739,7 +1739,7 @@ export const country_mappings: {
     UN: "NI",
   },
   {
-    Land: " Niederlande",
+    Land: "Niederlande",
     ISO_3166: "NL",
     ISO_3166_1: "NLD",
     ISO_3166_2: "528",
@@ -1749,7 +1749,7 @@ export const country_mappings: {
     UN: "NL",
   },
   {
-    Land: " Niederländische Antillen (historisch)",
+    Land: "Niederländische Antillen (historisch)",
     ISO_3166: "AN",
     ISO_3166_1: "ANT",
     ISO_3166_2: "530",
@@ -1759,7 +1759,7 @@ export const country_mappings: {
     UN: "AN",
   },
   {
-    Land: " Niger",
+    Land: "Niger",
     ISO_3166: "NE",
     ISO_3166_1: "NER",
     ISO_3166_2: "562",
@@ -1769,7 +1769,7 @@ export const country_mappings: {
     UN: "NE",
   },
   {
-    Land: " Nigeria",
+    Land: "Nigeria",
     ISO_3166: "NG",
     ISO_3166_1: "NGA",
     ISO_3166_2: "566",
@@ -1779,7 +1779,7 @@ export const country_mappings: {
     UN: "NG",
   },
   {
-    Land: " Niue",
+    Land: "Niue",
     ISO_3166: "NU",
     ISO_3166_1: "NIU",
     ISO_3166_2: "570",
@@ -1789,7 +1789,7 @@ export const country_mappings: {
     UN: "NU",
   },
   {
-    Land: " Nördliche Marianen",
+    Land: "Nördliche Marianen",
     ISO_3166: "MP",
     ISO_3166_1: "MNP",
     ISO_3166_2: "580",
@@ -1799,7 +1799,7 @@ export const country_mappings: {
     UN: "MP",
   },
   {
-    Land: " Nordmazedonien",
+    Land: "Nordmazedonien",
     ISO_3166: "MK",
     ISO_3166_1: "MKD",
     ISO_3166_2: "807",
@@ -1809,7 +1809,7 @@ export const country_mappings: {
     UN: "MK",
   },
   {
-    Land: " Türkische Republik Nordzypern [5]",
+    Land: "Türkische Republik Nordzypern [5]",
     ISO_3166: null,
     ISO_3166_1: null,
     ISO_3166_2: null,
@@ -1819,7 +1819,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Norfolkinsel",
+    Land: "Norfolkinsel",
     ISO_3166: "NF",
     ISO_3166_1: "NFK",
     ISO_3166_2: "574",
@@ -1829,7 +1829,7 @@ export const country_mappings: {
     UN: "NF",
   },
   {
-    Land: " Norwegen",
+    Land: "Norwegen",
     ISO_3166: "NO",
     ISO_3166_1: "NOR",
     ISO_3166_2: "578",
@@ -1839,7 +1839,7 @@ export const country_mappings: {
     UN: "NO",
   },
   {
-    Land: " Oman",
+    Land: "Oman",
     ISO_3166: "OM",
     ISO_3166_1: "OMN",
     ISO_3166_2: "512",
@@ -1849,7 +1849,7 @@ export const country_mappings: {
     UN: "OM",
   },
   {
-    Land: " Österreich",
+    Land: "Österreich",
     ISO_3166: "AT",
     ISO_3166_1: "AUT",
     ISO_3166_2: "40",
@@ -1859,7 +1859,7 @@ export const country_mappings: {
     UN: "AT",
   },
   {
-    Land: " Osttimor (Timor-Leste)",
+    Land: "Osttimor (Timor-Leste)",
     ISO_3166: "TL (TP[2])",
     ISO_3166_1: "TLS (TMP[2])",
     ISO_3166_2: "626",
@@ -1869,7 +1869,7 @@ export const country_mappings: {
     UN: "TL",
   },
   {
-    Land: " Pakistan",
+    Land: "Pakistan",
     ISO_3166: "PK",
     ISO_3166_1: "PAK",
     ISO_3166_2: "586",
@@ -1879,7 +1879,7 @@ export const country_mappings: {
     UN: "PK",
   },
   {
-    Land: " Palästina",
+    Land: "Palästina",
     ISO_3166: "PS",
     ISO_3166_1: "PSE",
     ISO_3166_2: "275",
@@ -1889,7 +1889,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Palau",
+    Land: "Palau",
     ISO_3166: "PW",
     ISO_3166_1: "PLW",
     ISO_3166_2: "585",
@@ -1899,7 +1899,7 @@ export const country_mappings: {
     UN: "PW",
   },
   {
-    Land: " Panama",
+    Land: "Panama",
     ISO_3166: "PA",
     ISO_3166_1: "PAN",
     ISO_3166_2: "591",
@@ -1909,7 +1909,7 @@ export const country_mappings: {
     UN: "PA",
   },
   {
-    Land: " Papua-Neuguinea",
+    Land: "Papua-Neuguinea",
     ISO_3166: "PG",
     ISO_3166_1: "PNG",
     ISO_3166_2: "598",
@@ -1919,7 +1919,7 @@ export const country_mappings: {
     UN: "PG",
   },
   {
-    Land: " Paraguay",
+    Land: "Paraguay",
     ISO_3166: "PY",
     ISO_3166_1: "PRY",
     ISO_3166_2: "600",
@@ -1929,7 +1929,7 @@ export const country_mappings: {
     UN: "PY",
   },
   {
-    Land: " Peru",
+    Land: "Peru",
     ISO_3166: "PE",
     ISO_3166_1: "PER",
     ISO_3166_2: "604",
@@ -1939,7 +1939,7 @@ export const country_mappings: {
     UN: "PE",
   },
   {
-    Land: " Philippinen",
+    Land: "Philippinen",
     ISO_3166: "PH",
     ISO_3166_1: "PHL",
     ISO_3166_2: "608",
@@ -1949,7 +1949,7 @@ export const country_mappings: {
     UN: "PH",
   },
   {
-    Land: " Pitcairninseln",
+    Land: "Pitcairninseln",
     ISO_3166: "PN",
     ISO_3166_1: "PCN",
     ISO_3166_2: "612",
@@ -1959,7 +1959,7 @@ export const country_mappings: {
     UN: "PN",
   },
   {
-    Land: " Polen",
+    Land: "Polen",
     ISO_3166: "PL",
     ISO_3166_1: "POL",
     ISO_3166_2: "616",
@@ -1969,7 +1969,7 @@ export const country_mappings: {
     UN: "PL",
   },
   {
-    Land: " Portugal",
+    Land: "Portugal",
     ISO_3166: "PT",
     ISO_3166_1: "PRT",
     ISO_3166_2: "620",
@@ -1979,7 +1979,7 @@ export const country_mappings: {
     UN: "PT",
   },
   {
-    Land: " Puerto Rico",
+    Land: "Puerto Rico",
     ISO_3166: "PR",
     ISO_3166_1: "PRI",
     ISO_3166_2: "630",
@@ -1989,7 +1989,7 @@ export const country_mappings: {
     UN: "PR",
   },
   {
-    Land: " Réunion",
+    Land: "Réunion",
     ISO_3166: "RE",
     ISO_3166_1: "REU",
     ISO_3166_2: "638",
@@ -1999,7 +1999,7 @@ export const country_mappings: {
     UN: "RE",
   },
   {
-    Land: " Ruanda",
+    Land: "Ruanda",
     ISO_3166: "RW",
     ISO_3166_1: "RWA",
     ISO_3166_2: "646",
@@ -2009,7 +2009,7 @@ export const country_mappings: {
     UN: "RW",
   },
   {
-    Land: " Rumänien",
+    Land: "Rumänien",
     ISO_3166: "RO",
     ISO_3166_1: "ROU (ROM[2])",
     ISO_3166_2: "642",
@@ -2019,7 +2019,7 @@ export const country_mappings: {
     UN: "RO",
   },
   {
-    Land: " Russland",
+    Land: "Russland",
     ISO_3166: "RU",
     ISO_3166_1: "RUS",
     ISO_3166_2: "643",
@@ -2029,7 +2029,7 @@ export const country_mappings: {
     UN: "RU",
   },
   {
-    Land: " Salomonen",
+    Land: "Salomonen",
     ISO_3166: "SB",
     ISO_3166_1: "SLB",
     ISO_3166_2: "90",
@@ -2039,7 +2039,7 @@ export const country_mappings: {
     UN: "SB",
   },
   {
-    Land: " Saint-Barthélemy",
+    Land: "Saint-Barthélemy",
     ISO_3166: "BL",
     ISO_3166_1: "BLM",
     ISO_3166_2: "652",
@@ -2049,7 +2049,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Saint-Martin (französischer Teil)",
+    Land: "Saint-Martin (französischer Teil)",
     ISO_3166: "MF",
     ISO_3166_1: "MAF",
     ISO_3166_2: "663",
@@ -2059,7 +2059,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Sambia",
+    Land: "Sambia",
     ISO_3166: "ZM",
     ISO_3166_1: "ZMB",
     ISO_3166_2: "894",
@@ -2069,7 +2069,7 @@ export const country_mappings: {
     UN: "ZM",
   },
   {
-    Land: " Samoa",
+    Land: "Samoa",
     ISO_3166: "WS",
     ISO_3166_1: "WSM",
     ISO_3166_2: "882",
@@ -2079,7 +2079,7 @@ export const country_mappings: {
     UN: "WS",
   },
   {
-    Land: " San Marino",
+    Land: "San Marino",
     ISO_3166: "SM",
     ISO_3166_1: "SMR",
     ISO_3166_2: "674",
@@ -2089,7 +2089,7 @@ export const country_mappings: {
     UN: "SM",
   },
   {
-    Land: " São Tomé und Príncipe",
+    Land: "São Tomé und Príncipe",
     ISO_3166: "ST",
     ISO_3166_1: "STP",
     ISO_3166_2: "678",
@@ -2099,7 +2099,7 @@ export const country_mappings: {
     UN: "ST",
   },
   {
-    Land: " Saudi-Arabien",
+    Land: "Saudi-Arabien",
     ISO_3166: "SA",
     ISO_3166_1: "SAU",
     ISO_3166_2: "682",
@@ -2109,7 +2109,7 @@ export const country_mappings: {
     UN: "SA",
   },
   {
-    Land: " Schweden",
+    Land: "Schweden",
     ISO_3166: "SE",
     ISO_3166_1: "SWE",
     ISO_3166_2: "752",
@@ -2119,7 +2119,7 @@ export const country_mappings: {
     UN: "SE",
   },
   {
-    Land: " Schweiz",
+    Land: "Schweiz",
     ISO_3166: "CH",
     ISO_3166_1: "CHE",
     ISO_3166_2: "756",
@@ -2129,7 +2129,7 @@ export const country_mappings: {
     UN: "CH",
   },
   {
-    Land: " Senegal",
+    Land: "Senegal",
     ISO_3166: "SN",
     ISO_3166_1: "SEN",
     ISO_3166_2: "686",
@@ -2139,7 +2139,7 @@ export const country_mappings: {
     UN: "SN",
   },
   {
-    Land: " Serbien",
+    Land: "Serbien",
     ISO_3166: "RS",
     ISO_3166_1: "SRB",
     ISO_3166_2: "688",
@@ -2149,7 +2149,7 @@ export const country_mappings: {
     UN: "RS",
   },
   {
-    Land: " Serbien und Montenegro (historisch)",
+    Land: "Serbien und Montenegro (historisch)",
     ISO_3166: "CS[2]",
     ISO_3166_1: "SCG[2]",
     ISO_3166_2: "891[2]",
@@ -2159,7 +2159,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Seychellen",
+    Land: "Seychellen",
     ISO_3166: "SC",
     ISO_3166_1: "SYC",
     ISO_3166_2: "690",
@@ -2169,7 +2169,7 @@ export const country_mappings: {
     UN: "SC",
   },
   {
-    Land: " Sierra Leone",
+    Land: "Sierra Leone",
     ISO_3166: "SL",
     ISO_3166_1: "SLE",
     ISO_3166_2: "694",
@@ -2179,7 +2179,7 @@ export const country_mappings: {
     UN: "SL",
   },
   {
-    Land: " Simbabwe",
+    Land: "Simbabwe",
     ISO_3166: "ZW",
     ISO_3166_1: "ZWE",
     ISO_3166_2: "716",
@@ -2189,7 +2189,7 @@ export const country_mappings: {
     UN: "ZW",
   },
   {
-    Land: " Singapur",
+    Land: "Singapur",
     ISO_3166: "SG",
     ISO_3166_1: "SGP",
     ISO_3166_2: "702",
@@ -2199,7 +2199,7 @@ export const country_mappings: {
     UN: "SG",
   },
   {
-    Land: " Sint Maarten",
+    Land: "Sint Maarten",
     ISO_3166: "SX",
     ISO_3166_1: "SXM",
     ISO_3166_2: "534",
@@ -2209,7 +2209,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Slowakei",
+    Land: "Slowakei",
     ISO_3166: "SK",
     ISO_3166_1: "SVK",
     ISO_3166_2: "703",
@@ -2219,7 +2219,7 @@ export const country_mappings: {
     UN: "SK",
   },
   {
-    Land: " Slowenien",
+    Land: "Slowenien",
     ISO_3166: "SI",
     ISO_3166_1: "SVN",
     ISO_3166_2: "705",
@@ -2229,7 +2229,7 @@ export const country_mappings: {
     UN: "SI",
   },
   {
-    Land: " Somalia",
+    Land: "Somalia",
     ISO_3166: "SO",
     ISO_3166_1: "SOM",
     ISO_3166_2: "706",
@@ -2239,7 +2239,7 @@ export const country_mappings: {
     UN: "SO",
   },
   {
-    Land: " Sowjetunion (UdSSR, historisch)",
+    Land: "Sowjetunion (UdSSR, historisch)",
     ISO_3166: "SU[2]",
     ISO_3166_1: "SUN[2]",
     ISO_3166_2: "810[2]",
@@ -2249,7 +2249,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Spanien",
+    Land: "Spanien",
     ISO_3166: "ES",
     ISO_3166_1: "ESP",
     ISO_3166_2: "724",
@@ -2259,7 +2259,7 @@ export const country_mappings: {
     UN: "ES",
   },
   {
-    Land: " Sri Lanka",
+    Land: "Sri Lanka",
     ISO_3166: "LK",
     ISO_3166_1: "LKA",
     ISO_3166_2: "144",
@@ -2269,7 +2269,7 @@ export const country_mappings: {
     UN: "LK",
   },
   {
-    Land: " St. Helena, Ascension und Tristan da Cunha",
+    Land: "St. Helena, Ascension und Tristan da Cunha",
     ISO_3166: "SH",
     ISO_3166_1: "SHN",
     ISO_3166_2: "654",
@@ -2279,7 +2279,7 @@ export const country_mappings: {
     UN: "SH",
   },
   {
-    Land: " St. Kitts und Nevis",
+    Land: "St. Kitts und Nevis",
     ISO_3166: "KN",
     ISO_3166_1: "KNA",
     ISO_3166_2: "659",
@@ -2289,7 +2289,7 @@ export const country_mappings: {
     UN: "KN",
   },
   {
-    Land: " St. Lucia",
+    Land: "St. Lucia",
     ISO_3166: "LC",
     ISO_3166_1: "LCA",
     ISO_3166_2: "662",
@@ -2299,7 +2299,7 @@ export const country_mappings: {
     UN: "LC",
   },
   {
-    Land: " Saint-Pierre und Miquelon",
+    Land: "Saint-Pierre und Miquelon",
     ISO_3166: "PM",
     ISO_3166_1: "SPM",
     ISO_3166_2: "666",
@@ -2309,7 +2309,7 @@ export const country_mappings: {
     UN: "PM",
   },
   {
-    Land: " St. Vincent und die Grenadinen",
+    Land: "St. Vincent und die Grenadinen",
     ISO_3166: "VC",
     ISO_3166_1: "VCT",
     ISO_3166_2: "670",
@@ -2319,7 +2319,7 @@ export const country_mappings: {
     UN: "VC",
   },
   {
-    Land: " Südafrika",
+    Land: "Südafrika",
     ISO_3166: "ZA",
     ISO_3166_1: "ZAF",
     ISO_3166_2: "710",
@@ -2329,7 +2329,7 @@ export const country_mappings: {
     UN: "ZA",
   },
   {
-    Land: " Sudan",
+    Land: "Sudan",
     ISO_3166: "SD",
     ISO_3166_1: "SDN",
     ISO_3166_2: "729",
@@ -2339,7 +2339,7 @@ export const country_mappings: {
     UN: "SD",
   },
   {
-    Land: " Südgeorgien und die Südlichen Sandwichinseln",
+    Land: "Südgeorgien und die Südlichen Sandwichinseln",
     ISO_3166: "GS",
     ISO_3166_1: "SGS",
     ISO_3166_2: "239",
@@ -2349,7 +2349,7 @@ export const country_mappings: {
     UN: "GS",
   },
   {
-    Land: " Südsudan",
+    Land: "Südsudan",
     ISO_3166: "SS",
     ISO_3166_1: "SSD",
     ISO_3166_2: "728",
@@ -2359,7 +2359,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Suriname",
+    Land: "Suriname",
     ISO_3166: "SR",
     ISO_3166_1: "SUR",
     ISO_3166_2: "740",
@@ -2369,7 +2369,7 @@ export const country_mappings: {
     UN: "SR",
   },
   {
-    Land: " Spitzbergen und Jan Mayen",
+    Land: "Spitzbergen und Jan Mayen",
     ISO_3166: "SJ",
     ISO_3166_1: "SJM",
     ISO_3166_2: "744",
@@ -2379,7 +2379,7 @@ export const country_mappings: {
     UN: "SJ",
   },
   {
-    Land: " Syrien",
+    Land: "Syrien",
     ISO_3166: "SY",
     ISO_3166_1: "SYR",
     ISO_3166_2: "760",
@@ -2389,7 +2389,7 @@ export const country_mappings: {
     UN: "SY",
   },
   {
-    Land: " Tadschikistan",
+    Land: "Tadschikistan",
     ISO_3166: "TJ",
     ISO_3166_1: "TJK",
     ISO_3166_2: "762",
@@ -2399,7 +2399,7 @@ export const country_mappings: {
     UN: "TJ",
   },
   {
-    Land: " Taiwan",
+    Land: "Taiwan",
     ISO_3166: "TW",
     ISO_3166_1: "TWN",
     ISO_3166_2: "158",
@@ -2409,7 +2409,7 @@ export const country_mappings: {
     UN: "TW",
   },
   {
-    Land: " Tansania",
+    Land: "Tansania",
     ISO_3166: "TZ",
     ISO_3166_1: "TZA",
     ISO_3166_2: "834",
@@ -2419,7 +2419,7 @@ export const country_mappings: {
     UN: "TZ",
   },
   {
-    Land: " Thailand",
+    Land: "Thailand",
     ISO_3166: "TH",
     ISO_3166_1: "THA",
     ISO_3166_2: "764",
@@ -2429,7 +2429,7 @@ export const country_mappings: {
     UN: "TH",
   },
   {
-    Land: " Togo",
+    Land: "Togo",
     ISO_3166: "TG",
     ISO_3166_1: "TGO",
     ISO_3166_2: "768",
@@ -2439,7 +2439,7 @@ export const country_mappings: {
     UN: "TG",
   },
   {
-    Land: " Tokelau",
+    Land: "Tokelau",
     ISO_3166: "TK",
     ISO_3166_1: "TKL",
     ISO_3166_2: "772",
@@ -2449,7 +2449,7 @@ export const country_mappings: {
     UN: "TK",
   },
   {
-    Land: " Tonga",
+    Land: "Tonga",
     ISO_3166: "TO",
     ISO_3166_1: "TON",
     ISO_3166_2: "776",
@@ -2459,7 +2459,7 @@ export const country_mappings: {
     UN: "TO",
   },
   {
-    Land: " Trinidad und Tobago",
+    Land: "Trinidad und Tobago",
     ISO_3166: "TT",
     ISO_3166_1: "TTO",
     ISO_3166_2: "780",
@@ -2469,7 +2469,7 @@ export const country_mappings: {
     UN: "TT",
   },
   {
-    Land: " Tristan da Cunha",
+    Land: "Tristan da Cunha",
     ISO_3166: "TA[1]",
     ISO_3166_1: "TAA",
     ISO_3166_2: null,
@@ -2489,7 +2489,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Tschad",
+    Land: "Tschad",
     ISO_3166: "TD",
     ISO_3166_1: "TCD",
     ISO_3166_2: "148",
@@ -2499,7 +2499,7 @@ export const country_mappings: {
     UN: "TD",
   },
   {
-    Land: " Tschechien",
+    Land: "Tschechien",
     ISO_3166: "CZ",
     ISO_3166_1: "CZE",
     ISO_3166_2: "203",
@@ -2509,7 +2509,7 @@ export const country_mappings: {
     UN: "CZ",
   },
   {
-    Land: " Tschechoslowakei (historisch)",
+    Land: "Tschechoslowakei (historisch)",
     ISO_3166: "CS[2]",
     ISO_3166_1: "CSK[2]",
     ISO_3166_2: "200[2]",
@@ -2519,7 +2519,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Tunesien",
+    Land: "Tunesien",
     ISO_3166: "TN",
     ISO_3166_1: "TUN",
     ISO_3166_2: "788",
@@ -2529,7 +2529,7 @@ export const country_mappings: {
     UN: "TN",
   },
   {
-    Land: " Türkei",
+    Land: "Türkei",
     ISO_3166: "TR",
     ISO_3166_1: "TUR",
     ISO_3166_2: "792",
@@ -2539,7 +2539,7 @@ export const country_mappings: {
     UN: "TR",
   },
   {
-    Land: " Turkmenistan",
+    Land: "Turkmenistan",
     ISO_3166: "TM",
     ISO_3166_1: "TKM",
     ISO_3166_2: "795",
@@ -2549,7 +2549,7 @@ export const country_mappings: {
     UN: "TM",
   },
   {
-    Land: " Turks- und Caicosinseln",
+    Land: "Turks- und Caicosinseln",
     ISO_3166: "TC",
     ISO_3166_1: "TCA",
     ISO_3166_2: "796",
@@ -2559,7 +2559,7 @@ export const country_mappings: {
     UN: "TC",
   },
   {
-    Land: " Tuvalu",
+    Land: "Tuvalu",
     ISO_3166: "TV",
     ISO_3166_1: "TUV",
     ISO_3166_2: "798",
@@ -2569,7 +2569,7 @@ export const country_mappings: {
     UN: "TV",
   },
   {
-    Land: " Uganda",
+    Land: "Uganda",
     ISO_3166: "UG",
     ISO_3166_1: "UGA",
     ISO_3166_2: "800",
@@ -2579,7 +2579,7 @@ export const country_mappings: {
     UN: "UG",
   },
   {
-    Land: " Ukraine",
+    Land: "Ukraine",
     ISO_3166: "UA",
     ISO_3166_1: "UKR",
     ISO_3166_2: "804",
@@ -2589,7 +2589,7 @@ export const country_mappings: {
     UN: "UA",
   },
   {
-    Land: " Ungarn",
+    Land: "Ungarn",
     ISO_3166: "HU",
     ISO_3166_1: "HUN",
     ISO_3166_2: "348",
@@ -2599,7 +2599,7 @@ export const country_mappings: {
     UN: "HU",
   },
   {
-    Land: " United States Minor Outlying Islands",
+    Land: "United States Minor Outlying Islands",
     ISO_3166: "UM",
     ISO_3166_1: "UMI",
     ISO_3166_2: "581",
@@ -2609,7 +2609,7 @@ export const country_mappings: {
     UN: "UM",
   },
   {
-    Land: " Uruguay",
+    Land: "Uruguay",
     ISO_3166: "UY",
     ISO_3166_1: "URY",
     ISO_3166_2: "858",
@@ -2619,7 +2619,7 @@ export const country_mappings: {
     UN: "UY",
   },
   {
-    Land: " Usbekistan",
+    Land: "Usbekistan",
     ISO_3166: "UZ",
     ISO_3166_1: "UZB",
     ISO_3166_2: "860",
@@ -2629,7 +2629,7 @@ export const country_mappings: {
     UN: "UZ",
   },
   {
-    Land: " Vanuatu",
+    Land: "Vanuatu",
     ISO_3166: "VU",
     ISO_3166_1: "VUT",
     ISO_3166_2: "548",
@@ -2639,7 +2639,7 @@ export const country_mappings: {
     UN: "VU",
   },
   {
-    Land: " Vatikanstadt",
+    Land: "Vatikanstadt",
     ISO_3166: "VA",
     ISO_3166_1: "VAT",
     ISO_3166_2: "336",
@@ -2649,7 +2649,7 @@ export const country_mappings: {
     UN: "VA",
   },
   {
-    Land: " Venezuela",
+    Land: "Venezuela",
     ISO_3166: "VE",
     ISO_3166_1: "VEN",
     ISO_3166_2: "862",
@@ -2659,7 +2659,7 @@ export const country_mappings: {
     UN: "VE",
   },
   {
-    Land: " Vereinigte Arabische Emirate",
+    Land: "Vereinigte Arabische Emirate",
     ISO_3166: "AE",
     ISO_3166_1: "ARE",
     ISO_3166_2: "784",
@@ -2669,7 +2669,7 @@ export const country_mappings: {
     UN: "AE",
   },
   {
-    Land: " Vereinigte Staaten",
+    Land: "Vereinigte Staaten von Amerika",
     ISO_3166: "US",
     ISO_3166_1: "USA",
     ISO_3166_2: "840",
@@ -2679,7 +2679,7 @@ export const country_mappings: {
     UN: "US",
   },
   {
-    Land: " Vereinigtes Königreich",
+    Land: "Grossbritannien",
     ISO_3166: "GB (und UK[1])",
     ISO_3166_1: "GBR",
     ISO_3166_2: "826",
@@ -2689,7 +2689,7 @@ export const country_mappings: {
     UN: "GB",
   },
   {
-    Land: " Vietnam",
+    Land: "Vietnam",
     ISO_3166: "VN",
     ISO_3166_1: "VNM",
     ISO_3166_2: "704",
@@ -2699,7 +2699,7 @@ export const country_mappings: {
     UN: "VN",
   },
   {
-    Land: " Wallis und Futuna",
+    Land: "Wallis und Futuna",
     ISO_3166: "WF",
     ISO_3166_1: "WLF",
     ISO_3166_2: "876",
@@ -2709,7 +2709,7 @@ export const country_mappings: {
     UN: "WF",
   },
   {
-    Land: " Weihnachtsinsel",
+    Land: "Weihnachtsinsel",
     ISO_3166: "CX",
     ISO_3166_1: "CXR",
     ISO_3166_2: "162",
@@ -2719,7 +2719,7 @@ export const country_mappings: {
     UN: "CX",
   },
   {
-    Land: " Westsahara",
+    Land: "Westsahara",
     ISO_3166: "EH",
     ISO_3166_1: "ESH",
     ISO_3166_2: "732",
@@ -2729,7 +2729,7 @@ export const country_mappings: {
     UN: "EH",
   },
   {
-    Land: " Zaire",
+    Land: "Zaire",
     ISO_3166: "ZR[2]",
     ISO_3166_1: "ZAR[2]",
     ISO_3166_2: "180",
@@ -2739,7 +2739,7 @@ export const country_mappings: {
     UN: null,
   },
   {
-    Land: " Zentralafrikanische Republik",
+    Land: "Zentralafrikanische Republik",
     ISO_3166: "CF",
     ISO_3166_1: "CAF",
     ISO_3166_2: "140",
@@ -2749,7 +2749,7 @@ export const country_mappings: {
     UN: "CF",
   },
   {
-    Land: " Zypern",
+    Land: "Zypern",
     ISO_3166: "CY",
     ISO_3166_1: "CYP",
     ISO_3166_2: "196",

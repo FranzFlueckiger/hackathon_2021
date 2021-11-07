@@ -13,22 +13,9 @@ function App() {
 
   return (
     <>
-      <AppBar
-        position="static"
-        style={{ right: "0px", left: "0px", backgroundColor: "#54494B" }}
-      >
-        <Tabs
-          value={value}
-          onChange={handleChange}
-          aria-label="simple tabs example"
-        >
-          <Tab label="Map" />
-          <Tab label="Write me a love letter" />
-        </Tabs>
-      </AppBar>
-      <h3 style={{ left: "20px", position: "relative" }}>
+      <h1 style={{ left: "20px", position: "relative" }}>
         The spatial evolvement of a Museums’ collection
-      </h3>
+      </h1>
       <MapView value={value} index={0}></MapView>
       <StoryView value={value} index={1}></StoryView>
       <div
@@ -47,7 +34,7 @@ function App() {
         inconsistencies on different levels, as errors and omissions occurred
         both when the objects were first cataloged and when the catalogues were
         transcribed into the database. Terminologies contained therein may today
-        be inaccurate, outdated, or offensive. Museum der Kulturen Base (MKB)
+        be inaccurate, outdated, or offensive. Museum der Kulturen Basel (MKB).
       </div>
     </>
   );
